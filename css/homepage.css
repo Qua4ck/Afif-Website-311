@@ -1,0 +1,66 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.cover{
+    background:no-repeat, linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../images/background.png") no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+	
+}
+.cover-content{
+    min-height: 100vh;
+}
+.cover-content img{
+
+    max-width: 200px;
+    border:2px solid white;
+}
+
+
+@media screen and (max-width: 760px) {
+    .cover-content h1{
+        font-size: 36px;
+        font-weight: bold;
+        padding-top: 30px;
+    }
+
+    .cover-content h6{
+        font-size: 15px;
+    }
+}
+
+body
+{
+	background-color:#0e161c;
+}
+
+h1
+{
+    color: white;
+}
+
+h2 
+{
+    color: white;
+}
+
+h3
+{
+    color: white;
+}
+
+h4
+{
+    color: white;
+}
+
+h6 
+{
+    color: white;
+}
+
+p
+{
+    color: white;
+}

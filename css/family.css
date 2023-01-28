@@ -1,0 +1,36 @@
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-left: 100px;
+  }
+  
+  th {
+    text-align: center;
+  }
+  
+  td {
+    text-align: center;
+  }
+  
+  th, td {
+    padding: 20px;
+  }
+  
+  .card {
+    width: 250px;
+    height: 320px;
+    display: inline-table;
+    padding: 150px 200px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 30px 17px;
+    background-position: center;
+    background-size: cover;
+    border-color: #000000;
+    box-shadow: 0 5px 9px 0 #00000033, 0 6px 20px 0 #00000030;
+    transition: transform 0.4s;
+  }
+  
+  .card:hover {
+    transform: translateY(-20px);
+  }
